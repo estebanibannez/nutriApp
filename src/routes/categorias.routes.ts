@@ -8,6 +8,7 @@ import {
 } from "../controllers/categorias.controller";
 
 const router = Router();
+// router.get("/", getCategorias);
 
 router.route("/")
 .get(getCategorias)

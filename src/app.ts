@@ -30,7 +30,7 @@ export class App {
 
   routes() {
     this.app.use(indexRoutes);
-    this.app.use("/categorias", categoriasRoutes);
+    this.app.use("/api/categorias", categoriasRoutes);
   }
 
   //metodo escucha.
